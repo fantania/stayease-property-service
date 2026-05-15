@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/stayease_property_db
     username: postgres
-    password: your_password
+    password: Password123
 
   jpa:
     hibernate:
