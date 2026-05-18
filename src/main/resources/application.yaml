@@ -6,9 +6,10 @@ spring:
     name: stayease-property-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/stayease_property_db
-    username: postgres
-    password: Password123
+    url: ${PROPERTY_DB_URL}
+    username: ${PROPERTY_DB_USERNAME}
+    password: ${PROPERTY_DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
